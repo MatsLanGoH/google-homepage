@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: auto;
+}
+
+.logo {
+    padding: 40px 0 0 0;
+    font-size: 5em;
+    font-family: 'Product Sans', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.search_container {
+    margin: auto;
+    text-align: center;
+}
+
+#g_search {
+    padding: 5px;
+    margin: 20px;
+    border: solid 1px;
+    border-radius: 0px;
+    width: 400px;
+}
+
+button {
+    width: 140px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar {
+    float: right;
+}
+
+span {
+    margin: -8px;
+}
+
+.logo_green {
+    color: #3cba54;
+}
+
+.logo_yellow {
+    color: #f4c20d;
+}
+
+.logo_red {
+    color: #db3236;
+}
+
+.logo_blue {
+    color: #4885ed;
+}
