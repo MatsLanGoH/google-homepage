@@ -17,9 +17,9 @@ The details concerning the implementation of the project can be found on the [Pr
 
 ## Extended features
 * Has navbar with links to 
-..* Gmail
-..* Image search
-..* Google Apps (with popup)
-..* Login button to Gmail account
+  * Gmail
+  * Image search
+  * Google Apps (with popup)
+  * Login button to Gmail account
 * Has "feeling lucky" button
 * Recognizes user region.
