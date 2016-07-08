@@ -2,13 +2,24 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.container {
-    margin: auto;
+
+.navbar {
+    float: right;
+}
+
+.navbar li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
-    padding: 40px 0 0 0;
-    font-size: 5em;
+    padding: 120px 0 0 0;
+    font-size: 5.5em;
     font-family: 'Product Sans', Arial, sans-serif;
     margin: auto;
     text-align: center;
@@ -20,33 +31,44 @@ body {
 }
 
 #g_search {
-    padding: 5px;
+    padding: 8px 20px;
     margin: 20px;
-    border: solid 1px;
-    border-radius: 0px;
     width: 400px;
+    height: 2em;
+    border: solid 1px #ddd;
 }
 
-button {
-    width: 140px;
+#g_search:hover {
+    border: solid 1px lightslategrey;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#g_search:focus {
+    border: solid 1px #4885ed;
 }
 
-.navbar li {
-    display: inline;
+.button {
+    background-color: #eee;
+    font-weight: bold;
+    border: none;
+    color: #757575;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    width: 148px;
+    height: 2.9em;
+    margin: 0 6px;
 }
 
-.navbar {
-    float: right;
+.button:hover {
+    background-color: #f0f0f0;
+    color: #000;
+    border: 1px solid lightslategray;
+    border-radius: 3px;
 }
 
 span {
-    margin: -8px;
+    margin: -10px;
 }
 
 .logo_green {
@@ -63,4 +85,27 @@ span {
 
 .logo_blue {
     color: #4885ed;
+}
+
+a {
+    color: #222;
+    font-size: 0.9em;
+    margin: 5px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
 }

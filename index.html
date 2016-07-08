@@ -10,33 +10,41 @@
 </head>
 
 <body>
+
     <div class="container">
-        <div class="navbar">
-            <ul>
-                <li><a href="https://mail.google.com">Gmail</a></li>
-                <li><a href="https://images.google.com/">Images</a></li>
-                <li><a href="">Apps</a></li>
-                <li><a href="">Login</a></li>
-            </ul>
+        <div class="header">
+            <div class="navbar">
+                <ul>
+                    <li><a href="https://mail.google.com">Gmail</a></li>
+                    <li><a href="https://images.google.com/">Images</a></li>
+                    <li><a href="">Apps</a></li>
+                    <li><a href="">Login</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="logo">
-            <span class="logo_blue">G</span>
-            <span class="logo_red">o</span>
-            <span class="logo_yellow">o</span>
-            <span class="logo_blue">g</span>
-            <span class="logo_green">l</span>
-            <span class="logo_red">e</span>
+        <div class="content">
+            <div class="logo">
+                <span class="logo_blue">G</span>
+                <span class="logo_red">o</span>
+                <span class="logo_yellow">o</span>
+                <span class="logo_blue">g</span>
+                <span class="logo_green">l</span>
+                <span class="logo_red">e</span>
+            </div>
+            <div class="search_container">
+                <form method="get" action="https://www.google.com/search">
+                    <div id="search_box">
+                        <input id="g_search" type="text" title="Search" name="q" placeholder="Search...">
+                    </div>
+                    <div id="search_buttons">
+                        <button class="button">Google Search</button>
+                        <button class="button">I'm Feeling Lucky!</button>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="search_container">
-            <form method="get" action="https://www.google.com/search">
-                <div id="search_box">
-                    <input id="g_search" type="text" title="Search" name="q">
-                </div>
-                <div id="search_buttons">
-                    <button>Google Search</button>
-                    <button>I'm Feeling Lucky!</button>
-                </div>
-            </form>
+        <div class="footer">
+            
         </div>
     </div>
 </body>
