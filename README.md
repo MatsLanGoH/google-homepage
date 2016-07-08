@@ -17,14 +17,14 @@ The details concerning the implementation of the project can be found on the [Pr
 
 ## Extended features
 * Has navbar with links to 
-  * Gmail
+  * Google Mail
   * Image search
-  * Google Apps (with popup)
-  * Login button to Gmail account
+  * Google Apps
+  * Login button to Google account
 
 
 # To-do's
 
 ## Future features
 * Implement working "feeling lucky" button
-* Recognizes user region and sets language accordingly.
+* Recognize user region and set language accordingly.
